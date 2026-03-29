@@ -1,5 +1,7 @@
 # @title
-!pip install python-telegram-bot
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
+import pandas as pd
 # =======================================================
 # 🤖 WELLBOT CORPORATIVO - Asistente de Bienestar Laboral "M O N I C A"
 # (Versión con Ciudad, Líder, Comentario y estructura nueva)
